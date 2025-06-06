@@ -4,6 +4,7 @@
 **Student Number:** 35565552  
 **Live Site:** [http://ron10.shop](http://ron10.shop)  
 **Public IP:** 18.143.248.1
+**Video explainer** https://youtu.be/0as9QgjTC0E?si=2pAUnhDAdvIXjyEc
 
 ---
 
