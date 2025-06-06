@@ -26,7 +26,7 @@ This documentation explains how I created and deployed my cloud server project u
   - Allow port **22 (SSH)** and **80 (HTTP)**
 
 ### 2. Key Pair
-- Create a new key pair named `webserver-key.pem`
+- Create a new key pair with suitable name 
 - Keep this file safe
 
 ---
