@@ -1,9 +1,12 @@
-# 🌐 ICT171 Assignment 2 – Cloud Server Project
+#  ICT171 Assignment 2 – Cloud Server Project
 
 **Name:** Ronald Justin  
+
 **Student Number:** 35565552  
+
 **Live Site:** [http://ron10.shop](http://ron10.shop)  
-**Public IP:** 18.143.248.1
+
+Public IP:** 18.143.248.1
 
 **Video explainer** https://youtu.be/0as9QgjTC0E?si=2pAUnhDAdvIXjyEc
 
@@ -11,8 +14,7 @@
 
 ##  Overview
 
-This documentation explains how I created and deployed my cloud server project using **Amazon EC2**, based entirely on the official ICT171 lab instructions. It is written to allow anyone (including myself in a crisis) to **rebuild the entire server from scratch** in under 2 hours.
-
+This documentation explains how I created and deployed my cloud server project using Amazon EC2, based entirely on the official ICT171 lab instructions. The project involved launching a Free Tier Ubuntu instance, installing and configuring Apache, and deploying a professionally styled static HTML website for a fictional clothing store. I registered the domain ron10.shop through GoDaddy and linked it to my EC2 instance using DNS configuration. All files were transferred securely using SCP, and the server was managed via SSH. The site includes a homepage, responsive product gallery, cart section, contact area, and a discussion panel explaining the build process. This documentation is written to allow anyone — including myself in a crisis — to rebuild the entire server from scratch in under 2 hours. It reflects my learning of core cloud infrastructure concepts, Linux administration, static site hosting, and practical web deployment skills.
 ---
 
 ##  Server Setup Instructions
@@ -42,7 +44,7 @@ ssh -i "webserver-key.pem" ubuntu@18.143.248.1
 
 ---
 
-## 🛠️ Install Apache
+## Install Apache
 
 ```bash
 sudo apt update
@@ -124,15 +126,15 @@ Purpose: Automates Apache setup and firewall rules.
 
  Reflection
 
-This project taught me real-world cloud deployment skills using IaaS. I followed the lab instructions closely, and now understand server setup, DNS management, and bash scripting for automation.
+This project helped me understand how to deploy a cloud-based website using Amazon EC2. I learned how to set up an Ubuntu server, install Apache, and link a custom domain using GoDaddy DNS. I also created a simple clothing store website using HTML and CSS.
 
+I gained hands-on experience with SSH, SCP, and working in a Linux environment. Documenting everything in the README.md helped me understand the importance of clear instructions and reproducibility. Overall, this assignment gave me practical skills in cloud hosting and server setup.
 ---
 ##  Project Structure
 
 ```
 ict171-server-project/
 ├── documentation/                 
-│   └── [Word doc not submitted]
 ├── scripts/
 │   └── setup.sh
 ├── website/
