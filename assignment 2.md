@@ -126,9 +126,7 @@ Purpose: Automates Apache setup and firewall rules.
 
  Reflection
 
-This project helped me understand how to deploy a cloud-based website using Amazon EC2. I learned how to set up an Ubuntu server, install Apache, and link a custom domain using GoDaddy DNS. I also created a simple clothing store website using HTML and CSS.
-
-I gained hands-on experience with SSH, SCP, and working in a Linux environment. Documenting everything in the README.md helped me understand the importance of clear instructions and reproducibility. Overall, this assignment gave me practical skills in cloud hosting and server setup.
+This project helped me understand how to deploy a cloud-based website using Amazon EC2. I learned how to set up an Ubuntu server, install Apache, and link a custom domain using GoDaddy DNS. I also created a simple clothing store website using HTML and CSS.I gained hands-on experience with SSH, SCP, and working in a Linux environment. Documenting everything in the README.md helped me understand the importance of clear instructions and reproducibility. Overall, this assignment gave me practical skills in cloud hosting and server setup.
 ---
 ##  Project Structure
 
