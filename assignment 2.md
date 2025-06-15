@@ -61,6 +61,7 @@ Visit `http://18.143.248.1` or `http://ron10.shop`
 - Purchased domain: `ron10.shop` for $2
 - Set an A-record pointing to EC2’s Elastic IP
 - DNS propagation may take 30–60 mins
+- We can link our DNS through that website 
 
 ---
 
